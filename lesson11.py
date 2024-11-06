@@ -10,15 +10,13 @@ class Cat(Animal):
     def make_sound(self):
         return 'Meow'
 
-class Cow(Animal):
-    def make_sound(self):
-        return 'Muuuu'
+
 
 dog = Dog()
 cat = Cat()
-cow = Cow()
+# cow = Cow()
 
 print('Sobaka: ', dog.make_sound())
 print('Koshka: ', cat.make_sound())
-print('Korova: ', cow.make_sound())
+# print('Korova: ', cow.make_sound())
 
